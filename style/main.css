@@ -1,0 +1,206 @@
+/*====================
+=======Structure======
+======================*/
+
+body{
+    background-color: hsl(300, 9%, 98%);
+    display:flex; 
+    flex-direction:column; 
+    /* Margen exterior */
+    /* AUTO = centra la caja en la página, dejando los mismos márgenes de ancho o laterales. */
+    margin: 1em auto;
+    /* altura mínima */
+    min-height: 100vh;
+    width: 90%;
+}
+
+/* valores proporcionales a la caja */
+header{
+    background-color: rgb(69, 124, 226);
+    /* margen exterior div */
+    margin: 1em 0;
+    /* margen interior div */
+    padding: 1em;
+    height: 10v;
+    /* elementos en fila */
+    display: flex;
+    /* (si en lugar de start utilizamos space-between , éste centraría los elementos...) y si queremos también espacio a los lados "space-around" */
+    justify-content: space-between;
+}
+
+/* los valores son proporcionales a la caja, no a la pantalla completa */
+main{
+    margin: 1em 0;
+    padding: 1em;
+}
+
+footer{
+   
+}
+
+/*====================
+======Typography======
+======================*/
+
+h1{
+    font-size: 3em;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+h3,h4,h5{
+    font-size: 1em;
+    font-weight: 1300;
+    font-family: "Dancing Script";
+}
+
+
+h6{
+    font-size: 2em;
+    font-weight: 1500;
+}
+
+
+/*====================
+========Image=========
+======================*/
+/* (imágenes de la web) */
+
+img{
+    width: 100%;
+}
+
+/*====================
+========Header=========
+======================*/
+
+.logo-title{
+    display: flex;
+    justify-self: start;
+}
+
+.logo{
+    width: max-content;
+}
+
+.logo svg{
+    height: 13em;
+    width: 13em;
+}
+
+.logo svg g{
+    fill: black;
+}
+
+.title, .menu{
+    margin: auto 0;
+}
+
+.menu li{
+    font-size: 1.5em;
+    font-weight: 300;
+    display: inline;
+    padding: 13px;
+    background-color: rgb(242, 245, 247);
+}
+
+/*====================
+========Slider======
+======================*/
+
+.slider{
+    width: 100%;
+}
+
+/*====================
+========Subtitle======
+======================*/
+
+.subtitle{
+    background-color: hsl(207, 85%, 69%);
+    margin-top: 2.5em;
+    padding: 0.2em 0;
+    width: 100%;
+}
+
+.subtitle h2{
+    text-align: center;
+    text-shadow: 3px 3px 0px rgba(150, 150, 150, 1);
+}
+
+
+/*====================
+========Animals=========
+======================*/
+
+.animals{
+    display: flex;
+    justify-content: space-between;
+}
+
+.animal{
+    width: 25%;
+}
+
+.animal-title{
+    margin: 0.5em 0;
+}
+
+.animal-title h3{
+    color:hsl(318, 71%, 40%);
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+/*====================
+========Contact========
+======================*/
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+}
+
+.contact-suscription-form{
+    background-color: hsl(27, 79%, 65%);
+}
+
+.contact-form{
+    width: 50%;
+}
+
+.contact-image{
+    width: 40%;
+}
+
+.contact-image img{
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px 5px #241a1a;
+}
+
+.crud__table-flex{
+    /* margen exterior div */
+    margin: 1em 0;
+    /* margen interior div */
+    padding: 1em;
+    height: 10v;
+    /* elementos en fila */
+    display: grid;
+    /* cajas por fila */
+    grid-template-columns: 32% 68%;
+    /* distancia de margen entre las cajas */
+    grid-gap: 0.5em;
+    font-size: 1.3em;
+    font-weight: 1300;
+}
+
+
+.footer-element{
+    text-align: center;
+}
