@@ -38,6 +38,140 @@ footer{
    
 }
 
+
+
+/*====================
+========Columns=======
+======================*/
+
+
+.desktop-cuatro-columnas{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-cuatro-columnas .columna{
+    width: 22%;
+}
+
+
+
+.desktop-tres-columnas{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-tres-columnas .columna{
+    width: 30%;
+}
+
+
+.desktop-dos-columnas{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-dos-columnas .columna{
+    width: 48%;
+}
+
+.desktop-dos-columnas-aside{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-dos-columnas-aside .columna-aside{
+    width: 30%;
+}
+
+.desktop-dos-columnas-aside .columna-main{
+    width: 65%;
+}
+
+.desktop-dos-columnas-inline{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-dos-columnas-inline .columna{
+    width: 48%;
+}
+
+.desktop-dos-columnas-inline .columna div{
+    display: flex;
+    margin-right: 1em;
+}
+
+.desktop-una-columna{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.desktop-una-columna .columna{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
+/*=============================
+======contacto información=====
+===============================*/
+
+.contacto-informacion-opcion{
+    display: flex;
+    flex-direction: inline;
+    margin: auto;
+}
+
+.contacto-informacion-opcion-text{
+    margin: auto 0.5rem;
+}
+
+span{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.contacto-informacion-opcion-imagen svg path{
+    fill:hsl(318, 71%, 40%);
+}
+
+.contacto-informacion-opcion-imagen svg{
+    width: 2em;
+    height: 2em;
+}
+
+.columna ul li{
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+
+
+/*====================
+======Formulario======
+======================*/
+
+textarea{
+    height: 7rem;
+}
+
+button{
+    width: 30%;
+    background-color: hsl(207, 85%, 69%);
+    color: rgb(14, 13, 13);
+    padding: 14px 20px;
+    margin: 0 35%;
+    border-radius: 4%;
+    font-weight: bold;
+}
+
+
 /*====================
 ======Typography======
 ======================*/
@@ -125,6 +259,7 @@ img{
     margin-top: 2.5em;
     padding: 0.2em 0;
     width: 100%;
+    margin-bottom: 3rem;
 }
 
 .subtitle h2{
@@ -199,6 +334,21 @@ img{
     font-size: 1.3em;
     font-weight: 1300;
 }
+
+
+.crud__form-input textarea{
+    width: 100%;
+}
+
+.crud__form-input{
+    width: 100%;
+}
+
+.crud__form-input input{
+    width: 100%;
+}
+
+
 
 
 .footer-element{
