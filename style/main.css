@@ -117,61 +117,6 @@ footer{
     margin-top: 1rem;
 }
 
-
-/*=============================
-======contacto información=====
-===============================*/
-
-.contacto-informacion-opcion{
-    display: flex;
-    flex-direction: inline;
-    margin: auto;
-}
-
-.contacto-informacion-opcion-text{
-    margin: auto 0.5rem;
-}
-
-span{
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-
-.contacto-informacion-opcion-imagen svg path{
-    fill:hsl(318, 71%, 40%);
-}
-
-.contacto-informacion-opcion-imagen svg{
-    width: 2em;
-    height: 2em;
-}
-
-.columna ul li{
-    margin-right: 1rem;
-    font-size: 1.1rem;
-}
-
-
-
-/*====================
-======Formulario======
-======================*/
-
-textarea{
-    height: 7rem;
-}
-
-button{
-    width: 30%;
-    background-color: hsl(207, 85%, 69%);
-    color: rgb(14, 13, 13);
-    padding: 14px 20px;
-    margin: 0 35%;
-    border-radius: 4%;
-    font-weight: bold;
-}
-
-
 /*====================
 ======Typography======
 ======================*/
@@ -212,7 +157,7 @@ img{
 ========Header=========
 ======================*/
 
-.logo-title{
+.logo-titulo{
     display: flex;
     justify-self: start;
 }
@@ -230,7 +175,7 @@ img{
     fill: black;
 }
 
-.title, .menu{
+.titulo, .menu{
     margin: auto 0;
 }
 
@@ -250,29 +195,34 @@ img{
     width: 100%;
 }
 
+
+
+
+
 /*====================
 ========Subtitle======
 ======================*/
 
-.subtitle{
+.subtitulo{
     background-color: hsl(207, 85%, 69%);
-    margin-top: 2.5em;
+    font-family: "dancing script";
+    margin-top: .5em;
     padding: 0.2em 0;
     width: 100%;
     margin-bottom: 3rem;
 }
 
-.subtitle h2{
+.subtitulo h2{
     text-align: center;
     text-shadow: 3px 3px 0px rgba(150, 150, 150, 1);
 }
 
 
 /*====================
-========Animals=========
+========Animales=========
 ======================*/
 
-.animals{
+.animales{
     display: flex;
     justify-content: space-between;
 }
@@ -281,11 +231,11 @@ img{
     width: 25%;
 }
 
-.animal-title{
+.animal-titulo{
     margin: 0.5em 0;
 }
 
-.animal-title h3{
+.animal-titulo h3{
     color:hsl(318, 71%, 40%);
     font-size: 1.5em;
     text-align: center;
@@ -319,7 +269,7 @@ img{
     box-shadow: 5px 5px 15px 5px #241a1a;
 }
 
-.crud__table-flex{
+.contact-table-flex{
     /* margen exterior div */
     margin: 1em 0;
     /* margen interior div */
@@ -335,22 +285,327 @@ img{
     font-weight: 1300;
 }
 
-
-.crud__form-input textarea{
+.contact-form-input textarea{
     width: 100%;
 }
 
-.crud__form-input{
+.contact-form-input{
     width: 100%;
 }
 
-.crud__form-input input{
+.contact-form-input input{
     width: 100%;
 }
 
 
+
+/*=============================
+======información CONTACTO=====
+===============================*/
+
+.contacto-informacion-opcion{
+    display: flex;
+    flex-direction: inline;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+.contacto-informacion-opcion-text{
+    margin: auto 1rem;
+}
+
+.contacto-informacion-opcion-text span{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.contacto-informacion-opcion-imagen svg path{
+    fill:hsl(318, 71%, 40%);
+}
+
+.contacto-informacion-opcion-imagen svg{
+    width: 2em;
+    height: 2em;
+}
+
+.columna ul li{
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+
+
+/*====================
+==Formulario CONTACTO==
+======================*/
+
+.contact-form-input textarea{
+    height: 10rem;
+}
+
+.contact-store-button{
+    width: 30%;
+    background-color: hsl(207, 85%, 69%);
+    color: rgb(14, 13, 13);
+    padding: 14px 20px;
+    margin: 0 35%;
+    border-radius: 4%;
+    font-weight: bold;
+}
+
+.contact-form-input{
+    margin-bottom: 2rem;
+}
+
+.contact-form-label{
+    margin-bottom: 0.5rem;
+}
+
+.form-contact{
+    color:hsl(0, 0%, 6%);
+    background-image: url("/images/fondo gaticos.jpg");
+    padding: 0.8rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+
+/* ================= */
+/* ======footer==== */
+/* =============== */
 
 
 .footer-element{
     text-align: center;
 }
+
+
+
+
+
+@media (max-width:479px) {
+
+    /* ****Estructura**** */
+
+    header{
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    main{
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo-titulo{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo svg{
+        height: 3em;
+        width: 3em;
+    }
+
+    .titulo{
+        font-size: 0.7em;
+    }
+
+    .menu li{
+        font-size: 1em;
+        font-weight: 300;
+        display: inline;
+        padding: 0.5 13px;
+        background-color: rgb(242, 245, 247);
+    }
+
+    /* ******HOME****** */
+
+    .subtitulo h2{
+        font-size: 1.2em;
+        text-shadow: none;
+        margin: 0;
+    }
+
+    .subtitulo{
+        margin-bottom: 1rem;
+    }
+
+    .animales{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .animal{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.2em;
+    }
+
+    .animal-imagen{
+        width: 30%;
+    }
+
+    .animal-titulo{
+        width: 20%;
+        font-size: 0.5em;
+    }
+
+    .animal-descripcion{
+        width: 50%;
+        font-size: 0.8em;
+        background-color: rgb(114, 163, 219);
+    }
+
+    .contact{
+        margin: 1em 0;
+        padding: 1em 0;
+        border-top: 1px solid #241a1a;
+        border-bottom: 1px solid #241a1a;
+    }
+
+    .contact-form{
+        font-size: 0.9em;
+    }
+
+    .contact__form-input input{
+        width: 90%;
+    }
+
+    .contact-image{
+        margin-top: 10%;
+    }
+
+    /*****CONTACTO***** */
+
+    .desktop-dos-columnas{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desktop-dos-columnas .columna{
+        width: 100%;
+    }
+
+    .contacto-informacion-opcion{
+        padding: 0.2rem 0;
+    }
+
+    .google iframe{
+        width: 100%;
+        margin: 1em auto;
+    }
+
+    .form-contact{
+        font-size: 1rem;
+        margin: 1rem auto;
+        border-style: solid;
+    }
+
+    .contact-form-input{
+        margin-bottom: 0.5rem;
+    }
+    
+    .contact-form-input textarea{
+        height: 5rem;
+    }
+
+    .contact-store-button{
+        width: 30%;
+        padding: 5px;
+        margin: 0 35%;
+        border-radius: 4%;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .mobile-one-column-inline .column{
+        border-bottom: 1px solid hsl(0, 0%, 87%);
+        display: flex;
+        margin-bottom: 1em;
+        width: 100%;
+    }
+
+    .mobile-three-columns .column{
+        width: 30%;
+    }
+
+    .mobile-three-columns-start{
+        display: flex;
+        justify-content: start;
+        width: 100%;
+    }
+
+    .mobile-three-columns-start .column{
+        width: inherit;
+    }
+
+    .mobile-four-columns{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .mobile-four-columns .column{
+        width: 22%;
+    }
+
+
+
+    .header-menu{
+        padding: 3% 5%;
+        width: 90%;
+    }
+
+
+    .header-menu-access-login button{
+        background-color: transparent;
+        border: none;
+        border-radius: 0.1rem;
+        cursor: pointer;
+        margin-right: 0.5rem;
+        padding: 0.2rem 0.5rem;
+    }
+
+ 
+    
+    .header-menu-access-login button svg {
+        height: 1.5rem;
+        overflow: hidden;
+        vertical-align: middle;
+    }
+
+
+
+
+    .news h4{
+        font-size: 1.1rem;
+        line-height: 1.25em;
+    }
+
+
+    .news-text{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+}
+
