@@ -85,11 +85,11 @@ footer{
 }
 
 .desktop-dos-columnas-aside .columna-aside{
-    width: 30%;
+    width: 20%;
 }
 
 .desktop-dos-columnas-aside .columna-main{
-    width: 65%;
+    width: 75%;
 }
 
 .desktop-dos-columnas-inline{
@@ -200,7 +200,7 @@ img{
 
 
 /*====================
-========Subtitle======
+========Subtitulo=====
 ======================*/
 
 .subtitulo{
@@ -243,33 +243,33 @@ img{
 
 
 /*====================
-========Contact========
+========Contacto=======
 ======================*/
 
-.contact{
+.home .contact{
     display: flex;
     justify-content: space-between;
     margin-top: 5em;
 }
 
-.contact-suscription-form{
+.home .contact-suscription-form{
     background-color: hsl(27, 79%, 65%);
 }
 
-.contact-form{
+.home .contact-form{
     width: 50%;
 }
 
-.contact-image{
+.home .contact-image{
     width: 40%;
 }
 
-.contact-image img{
+.home .contact-image img{
     border-radius: 50%;
     box-shadow: 5px 5px 15px 5px #241a1a;
 }
 
-.contact-table-flex{
+.home .contact-table-flex{
     /* margen exterior div */
     margin: 1em 0;
     /* margen interior div */
@@ -285,22 +285,22 @@ img{
     font-weight: 1300;
 }
 
-.contact-form-input textarea{
+.home .contact-form-input textarea{
     width: 100%;
 }
 
-.contact-form-input{
+.home .contact-form-input{
     width: 100%;
 }
 
-.contact-form-input input{
+.home .contact-form-input input{
     width: 100%;
 }
 
 
 
 /*=============================
-======información CONTACTO=====
+===html CONTACTO información===
 ===============================*/
 
 .contacto-informacion-opcion{
@@ -335,11 +335,12 @@ img{
 
 
 
-/*====================
-==Formulario CONTACTO==
-======================*/
+/*==========================
+==html CONTACTO formulario==
+============================*/
 
 .contact-form-input textarea{
+    width: 100%;
     height: 10rem;
 }
 
@@ -353,13 +354,15 @@ img{
     font-weight: bold;
 }
 
-.contact-form-input{
+.contact-form-input input{
     margin-bottom: 2rem;
+    width: 100%;
 }
 
 .contact-form-label{
     margin-bottom: 0.5rem;
 }
+
 
 .form-contact{
     color:hsl(0, 0%, 6%);
@@ -367,6 +370,49 @@ img{
     padding: 0.8rem;
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+
+
+/* ======================== */
+/* =====html GALERIA====== */
+/* ====================== */
+
+.categoria-galeria li{
+    color:hsl(318, 71%, 40%);
+    font-size: 2rem;
+    text-align: center;
+    border: solid;
+    border-radius: 3%;
+}
+
+.columna-main-galeria .selector{
+    background-color: hsl(199, 87%, 69%);
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: space-between;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.columna-main-galeria span{
+    font-size: 1.5rem;
+}
+
+.galeria .animal{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.galeria h3{
+    font-size: 2rem;
+    color: hsl(318, 71%, 40%);
+}
+
+.galeria p{
+    font-weight: bold;
 }
 
 
@@ -423,7 +469,7 @@ img{
         background-color: rgb(242, 245, 247);
     }
 
-    /* ******HOME****** */
+    /* ******html HOME****** */
 
     .subtitulo h2{
         font-size: 1.2em;
@@ -481,7 +527,7 @@ img{
         margin-top: 10%;
     }
 
-    /*****CONTACTO***** */
+    /*****html CONTACTO***** */
 
     .desktop-dos-columnas{
         display: flex;
@@ -496,7 +542,7 @@ img{
         padding: 0.2rem 0;
     }
 
-    .google iframe{
+    .contacto-informacion .google iframe{
         width: 100%;
         margin: 1em auto;
     }
@@ -523,6 +569,66 @@ img{
         font-weight: bold;
         font-size: 1rem;
     }
+
+
+
+    /* *****html GATOS***** */
+
+    .galeria .desktop-dos-columnas-aside{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .galeria .columna-categoria{
+        width: 100%;
+    }
+
+    .galeria .columna-categoria li{
+        font-size: 1.3rem;
+    }
+
+    .galeria .columna-main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .galeria .columna-main span{
+        font-size: 1rem;
+    }
+
+    .galeria .columna-main .boton-selector{
+        background-color: hsl(197, 76%, 87%);
+        padding-top: 13%;
+        font-size: 1rem;
+    }
+
+    .galeria .galeria-animales{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.7rem;
+        margin-bottom: 1rem;
+    }
+
+    .galeria-animales .desktop-tres-columnas .animal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .galeria-animales h3{
+        font-size: 1rem;
+    }
+
+    .galeria-animales img{
+        width: 90%;
+    }
+
+ 
+
+
+
 
 
 
