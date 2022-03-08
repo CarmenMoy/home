@@ -541,6 +541,154 @@ h7{
 
 
 
+
+/* ===================== */
+/* =====html CESTA===== */
+/* =================== */
+
+
+.tabla-cesta{
+    width: 80%;
+    text-align: center;
+    margin: 0% 10%;
+    border: solid;
+}
+
+.tabla-cesta .producto{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: inline;
+}
+
+.tabla-cesta th{
+    background-color: rgb(248, 207, 240);
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.tabla-cesta td{
+    color:hsl(318, 71%, 40%);
+    font-weight: bold;
+    font-size: 1.8rem;
+    width: 20%;
+}
+
+.tabla-cesta input{
+    width: 10%;
+}
+
+.cesta .desktop-dos-columnas-inline .columna-imagen{
+    margin-left: 5rem;
+}
+
+.cesta .desktop-dos-columnas-inline .columna-sumatorio{
+    width: 50%;
+    margin-right: 7rem;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.columna-sumatorio th{
+    text-align: left;
+}
+
+.columna-sumatorio td{
+    width: 10%;
+    text-align: right;
+}
+
+.columna-sumatorio .total{
+    color:hsl(318, 71%, 40%);
+}
+
+.cesta .botones{
+    width: 100%;
+    margin: 5rem;
+    display: flex;
+    font-size: 2rem;
+}
+.cesta .botones button{
+    background-color:  hsl(199, 87%, 69%);
+    height: 3rem;
+    width: 20rem;
+    margin: auto 5rem;
+    font-weight: bold;
+}
+
+
+
+/* ===================== */
+/* =====html CESTA===== */
+/* =================== */
+
+.form-contact{
+    color:hsl(0, 0%, 6%);
+    background-image: none;
+    padding: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.checkout .columna .subtitulo-resumen{
+    background-color: rgb(247, 177, 241);
+    margin-top: 1.5rem;
+    text-align: center;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+h8{
+    font-family: "Dancing Script";
+    font-size: 3rem;
+}
+
+.checkout .columna .resumen-de-producto{
+    font-size: 0.6rem;
+}
+
+.checkout .tabla-cesta {
+    margin-bottom: 2rem;
+}
+
+.checkout .columna-sumatorio{
+    margin-left: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.checkout .forma-de-pago{
+    background-color: rgb(240, 209, 233);
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+
+.checkout .forma-de-pago h7{
+    text-decoration: underline hsl(320, 83%, 76%) 3px;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.checkout .tabla-forma-de-pago img{
+    width: 3rem;
+    height: 2rem;
+    margin: auto 3rem;
+}
+
+.checkout .tabla-forma-de-pago th{
+    width: 30%;
+    padding: 0.3rem 0.5rem;
+}
+
+.checkout .forma-de-pago button{
+    margin: 1rem 50%;
+}
+
+
+
 /* ================= */
 /* ======footer==== */
 /* =============== */
@@ -586,10 +734,10 @@ h7{
     }
 
     .menu li{
-        font-size: 1em;
+        font-size: 0.7em;
         font-weight: 300;
         display: inline;
-        padding: 0.5 13px;
+        padding: 0.1 13px;
         background-color: rgb(242, 245, 247);
     }
 
@@ -751,7 +899,7 @@ h7{
 
 
 
-    /* ******html HOME****** */
+    /* ******html FICHA****** */
 
     .ficha{
         display: flex;
@@ -811,6 +959,74 @@ h7{
     .ficha .botones-adopcion-acogida button{
         margin-left:0.1rem;
     }
+    
+    
+    
+    /* ******html CESTA****** */
+
+    .cesta .tabla-cesta{
+        width: 100%;
+        margin: 0;
+    }
+
+    .cesta .tabla-cesta th, .cesta .tabla-cesta td{
+        font-size: 0.6rem;
+    }
+
+    .cesta .desktop-dos-columnas-inline .columna-imagen{
+        margin-left: 0.5rem;
+    }
+
+    .cesta .desktop-dos-columnas-inline .columna-sumatorio {
+        width: 100%;
+        margin-right: 1rem;
+        margin-top: 3rem;
+        font-weight: bold;
+        font-size: 0.5rem;
+    }
+    
+
+    .cesta .columna .botones{
+        width: 100%;
+        margin: 2rem;
+        display: flex;
+    }
+
+  
+    .cesta .columna .botones button{
+        font-size: 1rem;
+        width: 80%;
+        margin: auto 1rem;
+    }
+
+    .cesta .columna .botones .boton-pagar{
+        margin-top: 0.5rem;
+    }
+
+
+
+    /* ******html CHECKOUT****** */
+
+    .checkout .contact-form-input{
+        margin-bottom: 0;
+    }
+
+    .checkout .contact-form-element{
+        margin-bottom: 0;
+    }
+
+    .checkout .subtitulo-resumen{
+        width: 100%;
+        margin-left: 0;
+    }
+
+   
+
+
+
+
+
+
 
  
 
