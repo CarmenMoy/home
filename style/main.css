@@ -1007,114 +1007,47 @@ h8{
 
     /* ******html CHECKOUT****** */
 
-    .checkout .contact-form-input{
+    .checkout .contact-form-input input{
         margin-bottom: 0;
     }
 
-    .checkout .contact-form-element{
-        margin-bottom: 0;
+    .checkout .columna .subtitulo-resumen{
+        margin-left: 0;
+        margin-bottom: 1rem;
     }
 
-    .checkout .subtitulo-resumen{
-        width: 100%;
+    h8 {
+        font-size: 2rem;
+    }
+
+    .tabla-cesta{
+        margin: 10%;
+    }
+
+    .tabla-cesta th{
+        padding: 0.1rem;
+        font-size: 0.6rem;
+    }
+
+    .tabla-cesta td{
+        font-size: 1rem;
+        width: 0;
+    }
+
+    .checkout .columna-sumatorio{
         margin-left: 0;
     }
 
-   
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .mobile-one-column-inline .column{
-        border-bottom: 1px solid hsl(0, 0%, 87%);
-        display: flex;
-        margin-bottom: 1em;
-        width: 100%;
-    }
-
-    .mobile-three-columns .column{
-        width: 30%;
-    }
-
-    .mobile-three-columns-start{
-        display: flex;
-        justify-content: start;
-        width: 100%;
-    }
-
-    .mobile-three-columns-start .column{
-        width: inherit;
-    }
-
-    .mobile-four-columns{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    .mobile-four-columns .column{
-        width: 22%;
-    }
-
-
-
-    .header-menu{
-        padding: 3% 5%;
-        width: 90%;
-    }
-
-
-    .header-menu-access-login button{
-        background-color: transparent;
-        border: none;
-        border-radius: 0.1rem;
-        cursor: pointer;
-        margin-right: 0.5rem;
-        padding: 0.2rem 0.5rem;
-    }
-
- 
-    
-    .header-menu-access-login button svg {
-        height: 1.5rem;
-        overflow: hidden;
-        vertical-align: middle;
-    }
-
-
-
-
-    .news h4{
+    .checkout .forma-de-pago{
+        margin-left: 0;
         font-size: 1.1rem;
-        line-height: 1.25em;
+        margin-bottom: 1rem;
     }
 
-
-    .news-text{
-        display: flex;
-        flex-direction: column;
+    .checkout .tabla-forma-de-pago th{
+        padding: 0.1rem;
+        margin: 0;
     }
- 
+
 }
 
