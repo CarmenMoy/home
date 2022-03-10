@@ -1,0 +1,70 @@
+
+.desktop-cuatro-columnas{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .columna{
+        width: 22%;
+    }
+}
+
+.desktop-tres-columnas{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .columna{
+        width: 30%;
+    }
+}
+
+.desktop-dos-columnas{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .columna{
+        width: 48%;
+    }
+}
+
+
+.desktop-dos-columnas-aside{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .columna-aside{
+        width: 20%;
+    }
+
+    .columna-main{
+        width: 75%;
+    }
+}
+
+.desktop-dos-columnas-inline{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .columna{
+        width: 48%;
+
+        div{
+            display: flex;
+            margin-right: 1em;
+        }
+    }
+}
+
+.desktop-una-columna{
+    width: 100%;
+    margin-top: 1rem;
+
+    .columna{
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
