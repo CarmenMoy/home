@@ -1,114 +1,48 @@
 .checkout{
-    margin: 2rem auto 4rem auto;
-    width: 90%;
+    .contact-form-input input{
+        margin-bottom: 0;
+    }
 
-    .checkout-title{
+    .subtitulo-resumen{
+        margin-left: 0;
         margin-bottom: 1rem;
-        width: 100%;
 
-        h2{
-            text-align: center;
+        h8 {
+            font-size: 2rem;
         }
     }
 
-    .checkout-form{
-        border: 0;
-        display: flex;
-        flex-direction: column;
-        height: max-content;
-        padding: 1rem 0;
-        width: 100%;
+    .tabla-cesta{
+        margin: 10%;
 
-        .checkout-form-element{
-            margin-bottom: 1rem;
+        th{
+            padding: 0.1rem;
+            font-size: 0.6rem;
+        }
 
-            .checkout-form-label{
-                margin-bottom: 0.5rem;
-
-                label{
-                    color: hsl(0, 0%, 100%);
-                    font-weight: 600;
-                }
-            }
-
-            .checkout-form-input{
-
-                input{
-                    padding: 0.2rem 1rem;
-                    width: 100%;
-
-                    &:focus{
-                        outline: none;
-                    }
-                }
-
-                select{
-                    font-weight: 600;
-                    padding: 0.2rem 1rem;
-                    width: 100%;
-                }
-            }
+        td{
+            font-size: 1rem;
+            width: 0;
         }
     }
 
-    .checkout-submit{
-        padding: 1rem 10%;
-        width: 80%;
+    .columna-sumatorio{
+        margin-left: 0;
+    }
 
-        .checkout-resume{
-            border: 0.1rem solid hsl(0, 0%, 100%);
-            margin-left: auto;
-            margin-top: 1rem;
-            width: 100%;
+    .forma-de-pago{
+        margin-left: 0;
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
 
-            .checkout-resume-title{
-                background-color: hsl(0, 0%, 100%);
-                margin-bottom: 1rem;
-                padding: 0.5rem 2rem;
-
-                h3{
-                    color: $primary-color;
-                    text-align: center;
-                }
-            }
-
-            .checkout-resume-element{
-                padding: 0 1rem;
-                padding-bottom: 0.5rem;
-
-                h3{
-                    text-align: center;
-                }
-
-                #checkout-resume-element-total{
-                    border-top: 0.1rem solid hsl(0, 0%, 100%);
-                    padding-top: 0.5rem;
-                }                
-            }
-            
-            .checkout-payment-form{
-                margin-top: 2rem;
-
-                .checkout-payment-form-element{
-                    margin-bottom: 1rem;
-                }
-
-                .checkout-payent-form-radio,
-                .checkout-payent-form-radio-label{
-                    display: inline;
-                    margin-right: 0.5rem;
-
-                    label{
-                        color: hsl(0, 0%, 100%);
-                        font-weight: 600;
-                    }
-                }
-
-                .checkout-payment-button{
-                    margin-left: auto;
-                    width: max-content;
-                }
-            }
+        .tabla-forma-de-pago th{
+            padding: 0.1rem;
+            margin: 0;
         }
     }
 }
+
+
+
+
+// ----------------------------------------------------------------

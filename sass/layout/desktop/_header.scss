@@ -4,8 +4,8 @@ header{
     margin: 1em 0;
     padding: 1em;
     height: 10v;
-    display: flex;
-    justify-content: space-between;
+    @include display-principal;
+
 
     .logo-titulo{
         display: flex;
@@ -37,7 +37,7 @@ header{
             font-weight: 300;
             display: inline;
             padding: 13px;
-            background-color: rgb(242, 245, 247);
+            background-color: $cuarto-color;
         }
     }
 }

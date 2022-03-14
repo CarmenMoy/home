@@ -1,7 +1,6 @@
 
 .home .animales{
-    display: flex;
-    justify-content: space-between;
+    @include display-principal;
 
     .animal{
         width: 25%;
@@ -10,7 +9,7 @@
             margin: 0.5em 0;
 
             h3{
-                color:hsl(318, 71%, 40%);
+                color: $primer-color;
                 font-size: 1.5em;
                 text-align: center;
             }
@@ -21,8 +20,7 @@
 
 
 .home .contact{
-    display: flex;
-    justify-content: space-between;
+    @include display-principal;
     margin-top: 5em;
 
     .contact-form{

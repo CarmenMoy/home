@@ -1,58 +1,68 @@
-.product{
-    margin: 4rem auto;
-    width: 90%;
+.ficha{
+    @include display-secundario;
+    width: 100%;
+    margin: 0;
 
-    .product-image-gallery{
-        margin: 2rem 0;
-        width: 100%;
-
-        .product-image-gallery-element{
-            cursor: pointer;
-        }
+    .foto-ficha {
+        margin: 0;
     }
 
-    .product-info-title{
-        margin-bottom: 1rem;
-
-        h2{
-            font-size: 1.2rem;
-        }
+    .subfotos-ficha{
+        margin: 0;
     }
 
-    .product-info-price{
-        margin-bottom: 1rem;
+    .coste{
+        h3{
+            font-size: 2rem;
+            margin: auto;
+        }
 
-        h3{ 
+        span{
             font-size: 1rem;
         }
     }
 
-    .product-info-description{
-        margin-bottom: 1rem;
+    .descripcion{
+        padding: 1rem;
+        margin-bottom: 0;
 
-        p{
-            margin-bottom: 0.5rem;
-            text-align: justify;
-        }
-    }
-    
-    .product-info-plus-minus{
-        display: flex;
-        margin: 3rem 0;
+        .video-descripcion{
+            margin: 0;
 
-        .product-info-plus-minus-title {
-            margin-right: 5rem;
-
-            span{
-                color: hsl(0, 0%, 100%);
-                font-weight: 600;
+            iframe{
+                width: 18rem;
+                height: 10rem;
             }
         }
     }
 
-    .product-info-add-to-cart{
-        margin: 0 auto;
-        width: max-content;
+    .cantidad{
+        width: 100%;
+        @include display-secundario;
+
+        span{
+            margin: none;
+            text-align: justify;
+            font-size: 0.8rem;
+        }
+
+        .botones-cantidad{
+            margin: none;
+            width: 100%;
+        }
+    }
+    
+    .botones-adopcion-acogida{
+        margin-bottom: 3rem;
+
+        button{
+            margin-left:0.1rem;
+        }
     }
 }
 
+
+
+
+
+// -----------------------------------------------------

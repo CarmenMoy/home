@@ -1,3 +1,40 @@
+@mixin display-principal{
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin display-secundario{
+    display:flex; 
+    flex-direction:column; 
+}
+
+
+
+// ---------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @mixin borderColor($i) {
 
     $bt: 0.1rem;

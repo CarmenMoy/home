@@ -1,6 +1,5 @@
 .mobile-five-columns{
-    display: flex;
-    justify-content: space-between;
+    @include display-principal;
     width: 100%;
 
     .column{
@@ -9,8 +8,7 @@
 }
 
 .mobile-four-columns{
-    display: flex;
-    justify-content: space-between;
+    @include display-principal;
     width: 100%;
 
     .column{
@@ -19,8 +17,7 @@
 }
 
 .mobile-three-columns{
-    display: flex;
-    justify-content: space-between;
+    @include display-principal;
     width: 100%;
 
     .column{
@@ -29,8 +26,7 @@
 }
 
 .mobile-two-columns{
-    display: flex;
-    justify-content: space-between;
+    @include display-principal;
     width: 100%;
 
     .column{

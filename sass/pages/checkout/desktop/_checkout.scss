@@ -1,114 +1,69 @@
 .checkout{
-    margin: 2rem auto 4rem auto;
-    width: 90%;
-
-    .checkout-title{
-        margin-bottom: 2rem;
-        width: 100%;
-
-        h2{
-            text-align: center;
-        }
+    .form-contact{
+        color:hsl(0, 0%, 6%);
+        background-image: none;
+        padding: none;
+        font-weight: bold;
+        font-size: 1.5rem;
     }
-    
-    .checkout-form{
-        border-right: 0.1rem solid hsl(0, 0%, 100%);
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        padding: 1rem 15%;
-        width: 70%;
 
-        .checkout-form-element{
-            margin-bottom: 1rem;
+    .subtitulo-resumen{
+        background-color: rgb(247, 177, 241);
+        margin-top: 1.5rem;
+        text-align: center;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
 
-            .checkout-form-label{
-                margin-bottom: 0.5rem;
-
-                label{
-                    color: hsl(0, 0%, 100%);
-                    font-weight: 600;
-                }
-            }
-
-            .checkout-form-input{
-
-                input{
-                    padding: 0.2rem 1rem;
-                    width: 100%;
-
-                    &:focus{
-                        outline: none;
-                    }
-                }
-
-                select{
-                    font-weight: 600;
-                    padding: 0.2rem 1rem;
-                    width: 100%;
-                }
-            }
+        h8{
+            font-family: $font-stack;
+            font-size: 3rem;
         }
     }
 
-    .checkout-submit{
-        padding: 1rem 10%;
-        width: 80%;
+    .resumen-de-producto{
+        font-size: 0.6rem;
 
-        .checkout-resume{
-            border: 0.1rem solid hsl(0, 0%, 100%);
-            margin-left: auto;
-            margin-top: 1rem;
-            width: 100%;
+        .tabla-cesta {
+            margin-bottom: 2rem;
+        }
+    }
 
-            .checkout-resume-title{
-                background-color: hsl(0, 0%, 100%);
-                margin-bottom: 1rem;
-                padding: 0.5rem 2rem;
+    .columna-sumatorio{
+        margin-left: 3rem;
+        font-weight: bold;
+        margin-bottom: 3rem;
+    }
 
-                h3{
-                    color: $primary-color;
-                    text-align: center;
+    .forma-de-pago{
+        background-color: rgb(240, 209, 233);
+        margin-left: 3rem;
+        font-size: 1.5rem;
+
+        h7{
+            text-decoration: underline hsl(320, 83%, 76%) 3px;
+            font-weight: bold;
+            margin: 1rem;
+        }
+
+        .tabla-forma-de-pago{
+            th{
+                width: 30%;
+                padding: 0.3rem 0.5rem;
+
+                img{
+                    width: 3rem;i
+                    height: 2rem;
+                    margin: auto 3rem;
                 }
             }
+        }
 
-            .checkout-resume-element{
-                padding: 0 1rem;
-                padding-bottom: 0.5rem;
-
-                h3{
-                    text-align: center;
-                }
-
-                #checkout-resume-element-total{
-                    border-top: 0.1rem solid hsl(0, 0%, 100%);
-                    padding-top: 0.5rem;
-                }                
-            }
-            
-            .checkout-payment-form{
-                margin-top: 2rem;
-
-                .checkout-payment-form-element{
-                    margin-bottom: 1rem;
-
-                    .checkout-payment-form-radio,
-                    .checkout-payment-form-radio-label{
-                        display: inline;
-                        margin-right: 0.5rem;
-    
-                        label{
-                            color: hsl(0, 0%, 100%);
-                            font-weight: 600;
-                        }
-                    }
-                }
-
-                .checkout-payment-button{
-                    margin-left: auto;
-                    width: max-content;
-                }
-            }
+        button{
+            margin: 1rem 50%;
         }
     }
 }
+
+
+
+// -----------------------------------------------------

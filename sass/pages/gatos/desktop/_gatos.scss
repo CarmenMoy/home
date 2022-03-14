@@ -1,6 +1,6 @@
 .galeria{
     .categoria-galeria li{
-        color:hsl(318, 71%, 40%);
+        color: $primer-color;
         font-size: 2rem;
         text-align: center;
         border: solid;
@@ -9,12 +9,11 @@
 
     .columna-main-galeria{
         .selector{
-            background-color: hsl(199, 87%, 69%);
+            background-color: $tercer-color;
             padding: 0.5rem;
             font-weight: bold;
             font-size: 1.2rem;
-            display: flex;
-            flex-direction: space-between;
+            @include display-principal;
             margin-bottom: 2rem;
             text-align: center;
 
@@ -30,7 +29,7 @@
 
                 h3{
                     font-size: 2rem;
-                    color: hsl(318, 71%, 40%);
+                    color: $primer-color;
                 }
 
                 p{

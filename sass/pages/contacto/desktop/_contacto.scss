@@ -13,7 +13,7 @@
                     height: 2em;
 
                     path{
-                        fill:hsl(318, 71%, 40%);
+                        fill: $primer-color;
                     }
                 }
             }
@@ -54,7 +54,7 @@
 
         .contact-store-button{
             width: 30%;
-            background-color: hsl(207, 85%, 69%);
+            background-color: $segundo-color;
             color: rgb(14, 13, 13);
             padding: 14px 20px;
             margin: 0 35%;

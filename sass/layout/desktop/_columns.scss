@@ -1,7 +1,6 @@
 
 .desktop-cuatro-columnas{
-    display: flex;
-    justify-content: space-between;
+    @include display-principal;
     width: 100%;
 
     .columna{
@@ -10,8 +9,7 @@
 }
 
 .desktop-tres-columnas{
-    display: flex;
-    justify-content: space-between;
+    @include display-principal;
     width: 100%;
 
     .columna{
@@ -20,8 +18,7 @@
 }
 
 .desktop-dos-columnas{
-    display: flex;
-    justify-content: space-between;
+    @include display-principal;
     width: 100%;
 
     .columna{
@@ -31,8 +28,7 @@
 
 
 .desktop-dos-columnas-aside{
-    display: flex;
-    justify-content: space-between;
+    @include display-principal;
     width: 100%;
 
     .columna-aside{
@@ -45,8 +41,7 @@
 }
 
 .desktop-dos-columnas-inline{
-    display: flex;
-    justify-content: space-between;
+    @include display-principal;
     width: 100%;
 
     .columna{
