@@ -1,48 +1,83 @@
 .checkout{
-    .contact-form-input input{
-        margin-bottom: 0;
+    .form-contact{
+        color:hsl(0, 0%, 6%);
+        background-image: none;
+        padding: none;
+        font-weight: bold;
+        font-size: 1.5rem;
+
+        .contact-form-input input{
+            margin-bottom: 0;
+        }
     }
 
     .subtitulo-resumen{
+        background-color: rgb(247, 177, 241);
+        margin-top: 1.5rem;
+        text-align: center;
         margin-left: 0;
         margin-bottom: 1rem;
 
-        h8 {
+        h8{
+            font-family: $font-stack;
             font-size: 2rem;
         }
     }
 
-    .tabla-cesta{
-        margin: 10%;
+    .resumen-de-producto{
+        font-size: 0.6rem;
 
-        th{
-            padding: 0.1rem;
-            font-size: 0.6rem;
-        }
+        .tabla-cesta {
+            margin: 10%;
 
-        td{
-            font-size: 1rem;
-            width: 0;
+            th{
+                padding: 0.1rem;
+                font-size: 0.6rem;
+            }
+    
+            td{
+                font-size: 1rem;
+                width: 0;
+            }
         }
     }
 
     .columna-sumatorio{
         margin-left: 0;
+        font-weight: bold;
+        margin-bottom: 3rem;
     }
 
     .forma-de-pago{
+        background-color: rgb(240, 209, 233);
         margin-left: 0;
         font-size: 1.1rem;
         margin-bottom: 1rem;
 
-        .tabla-forma-de-pago th{
-            padding: 0.1rem;
-            margin: 0;
+        h7{
+            text-decoration: underline hsl(320, 83%, 76%) 3px;
+            font-weight: bold;
+            margin: 1rem;
+        }
+
+        .tabla-forma-de-pago{
+            th{
+                width: 30%;
+                padding: 0.1rem;
+                margin: 0;
+
+                img{
+                    width: 3rem;
+                    height: 2rem;
+                    margin: auto 3rem;
+                }
+            }
+        }
+
+        button{
+            margin: 1rem 50%;
         }
     }
 }
 
 
-
-
-// ----------------------------------------------------------------

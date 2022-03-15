@@ -1,36 +1,44 @@
 header{
+    background-color: rgb(69, 124, 226);
+    margin: 0;
+    padding: 1em;
+    height: 10v;
     @include display-secundario;
-	padding: 1em;
-	margin: 0;
-	margin-bottom: 1em;
 
-	.logo-titulo{
+
+    .logo-titulo{
 		@include display-principal;
 
-		.logo svg{
-			height: 3em;
-			width: 3em;
-		}
+        .logo{
+            width: max-content;
 
-		
-		.titulo{
+            svg{
+                height: 13em;
+                width: 13em;
+
+                g{
+                    fill: black;
+                }
+            }
+        }
+
+        .titulo{
 			font-size: 0.7em;
-		}
+            margin: auto 0;
+        }
     }
 
-	.menu li{
-        font-size: 0.7em;
-        font-weight: 300;
-        display: inline;
-        padding: 0.1 13px;
-        background-color: $cuarto-color;
+    .menu{
+        margin: auto 0;
+
+        li{
+            font-size: 0.7em;
+            font-weight: 300;
+            display: inline;
+            padding: 0.1 13px;
+            background-color: $cuarto-color;
+        }
     }
 }
-
-
-
-
-// --------------------------------------------------------------------------
-  
 
 

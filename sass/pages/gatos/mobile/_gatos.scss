@@ -8,18 +8,31 @@
 
             li{
                 font-size: 1.3rem;
+                text-align: center;
+                border: solid;
+                border-radius: 3%;
+                color: $primer-color;
             }
         }
-
-        .columna-main{
+    
+        .columna-main-galeria{
             width: 100%;
             @include display-secundario;
 
             .selector{
+                background-color: $tercer-color;
+                padding: 0.5rem;
+                font-weight: bold;
+                font-size: 1.2rem;
+                @include display-principal;
+                margin-bottom: 2rem;
+                text-align: center;
+    
                 span{
                     font-size: 1rem;
                 }
 
+                
                 .boton-selector{
                     background-color: hsl(197, 76%, 87%);
                     padding-top: 13%;
@@ -33,15 +46,24 @@
                 font-size: 0.7rem;
                 margin-bottom: 1rem;
 
-                .desktop-tres-columnas .animal{
-                    @include display-secundario;
+                .galeria-animal{
+                    .desktop-tres-columnas .animal{
+                        @include display-secundario;
+                        margin-bottom: 2rem;
+                        text-align: center;
 
-                    h3{
-                        font-size: 1rem;
-                    }
-
-                    img{
-                        width: 90%;
+                        img{
+                            width: 90%;
+                        }
+        
+                        h3{
+                            font-size: 1rem;
+                            color: $primer-color;
+                        }
+        
+                        p{
+                            font-weight: bold;
+                        }
                     }
                 }
             }
@@ -50,6 +72,3 @@
 }
 
 
-
-
-// ----------------------------------------------------------------------
