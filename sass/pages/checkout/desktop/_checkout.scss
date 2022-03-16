@@ -5,11 +5,19 @@
         padding: none;
         font-weight: bold;
         font-size: 1.5rem;
+
+        input{
+            width: 95%;
+        }
+
+        .desktop-tres-columnas{
+            margin-top: 1rem;
+        }
     }
 
     .subtitulo-resumen{
         background-color: rgb(247, 177, 241);
-        margin-top: 1.5rem;
+        margin-top: 1rem;
         text-align: center;
         margin-left: 3rem;
         margin-bottom: 3rem;
@@ -21,10 +29,21 @@
     }
 
     .resumen-de-producto{
-        font-size: 0.6rem;
+        font-size: 1rem;
+        margin-left: 4rem;
 
-        .tabla-cesta {
-            margin-bottom: 2rem;
+        .columna{
+            width: 95%;
+            text-align: center;
+            margin-bottom: 3rem;
+
+            .tabla-cesta {
+                margin-bottom: 2rem;
+    
+                input{
+                    width: 10%;
+                }
+            }
         }
     }
 
@@ -32,6 +51,12 @@
         margin-left: 3rem;
         font-weight: bold;
         margin-bottom: 3rem;
+        margin-right: 3rem;
+
+        .tabla-sumatorio{
+            width: 90%;
+            text-align: end;
+        }
     }
 
     .forma-de-pago{
