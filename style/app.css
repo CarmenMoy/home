@@ -446,6 +446,10 @@ header .menu li {
   padding: 13px;
   background-color: #f2f5f7;
 }
+header .menu .header-menu-hamburger {
+  margin-left: auto;
+  width: 10%;
+}
 
 .footer-element {
   text-align: center;

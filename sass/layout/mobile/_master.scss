@@ -11,3 +11,10 @@ body{
     width: 90%;
 }
 
+.desktop-only{
+    display: none;
+}
+
+.mobile-only{
+    display: revert;
+}
