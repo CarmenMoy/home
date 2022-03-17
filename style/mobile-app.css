@@ -449,7 +449,7 @@ header .logo-titulo .titulo h1 {
 }
 header .header-menu-hamburger {
   margin-left: auto;
-  width: 10%;
+  width: 15%;
 }
 header #collapse-button {
   display: block;
@@ -480,7 +480,6 @@ header #collapse-button.active span:last-of-type {
 }
 header #collapse-button span {
   display: block;
-  position: absolute;
   height: 5px;
   opacity: 1;
   transform: none;
