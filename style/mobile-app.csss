@@ -371,7 +371,7 @@ th {
 
 /* List
 ==============================================================================*/
-ol, ul {
+ol, ul, nav {
   list-style: none;
   padding-left: 0;
 }
@@ -489,18 +489,19 @@ header #collapse-button span {
   margin: 0.5rem auto;
   transition: all 0.6s cubic-bezier(0.81, -0.33, 0.345, 1.375) 0s;
 }
-header .menu nav {
-  overflow: hidden;
+header .menu {
   background-color: #6bc9f5;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 100;
+  top: 10.5vh;
 }
-header .menu nav li {
+header .menu li {
   display: inline;
-  font-size: 1.1em;
-  font-weight: 300;
-  padding: 1rem;
-  background-color: #6bc9f5;
-  margin: auto;
+  background: aliceblue;
+  margin: 0.1rem;
+  padding: 0.1rem;
 }
 
 footer {
