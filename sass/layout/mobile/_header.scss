@@ -83,16 +83,20 @@ header{
         }
     }
 
-    .menu{
-        margin-left: auto;
-        width: 10%;
+    .menu{  
+        background-color: $tercer-color;
+        position: fixed;
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 100;
+        top: 10vh;
 
         li{
-            font-size: 1.1em;
-            font-weight: 300;
             display: inline;
-            padding: 0.1 13px;
-            background-color: $cuarto-color;
+            background: aliceblue;
+            color: rgb(240, 114, 202);
+            margin: 0.1rem;
+            padding: 0.1rem;
         }
     }
 }
