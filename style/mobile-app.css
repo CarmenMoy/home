@@ -492,12 +492,13 @@ header #collapse-button span {
 header #menu {
   background-color: #6bc9f5;
   position: fixed;
-  width: 100%;
+  width: 81%;
   font-size: 1rem;
   font-weight: 100;
-  top: 11vh;
-  margin-left: 3rem;
+  top: 11.5vh;
+  padding: 0 2%;
   opacity: 0;
+  transition-delay: 0.5s;
 }
 header #menu li {
   display: inline;
@@ -507,7 +508,7 @@ header #menu li {
 }
 header #menu.active {
   opacity: 1;
-  transition-delay: 3s;
+  transition-delay: 0.5s;
 }
 
 footer {

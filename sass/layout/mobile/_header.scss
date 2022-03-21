@@ -86,12 +86,13 @@ header{
     #menu{  
         background-color: $tercer-color;
         position: fixed;
-        width: 100%;
+        width: 81%;
         font-size: 1rem;
         font-weight: 100;
-        top: 11vh;
-        margin-left: 3rem;
+        top: 11.5vh;
+        padding: 0 2%;
         opacity: 0;
+        transition-delay: 0.5s;
 
         li{
             display: inline;
@@ -102,6 +103,7 @@ header{
 
         &.active{
             opacity: 1;
+            transition-delay: 0.5s;
         }
     }
 }
