@@ -20,5 +20,4 @@ export let renderMenu = () => {
         menuButton.classList.toggle("active");
         menu.classList.toggle("active");
     });
-
 }

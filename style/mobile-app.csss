@@ -489,19 +489,26 @@ header #collapse-button span {
   margin: 0.5rem auto;
   transition: all 0.6s cubic-bezier(0.81, -0.33, 0.345, 1.375) 0s;
 }
-header .menu {
+header #menu {
   background-color: #6bc9f5;
   position: fixed;
-  width: 100%;
+  width: 81%;
   font-size: 1rem;
   font-weight: 100;
-  top: 10.5vh;
+  top: 11.5vh;
+  padding: 0 2%;
+  opacity: 0;
+  transition-delay: 0.5s;
 }
-header .menu li {
+header #menu li {
   display: inline;
   background: aliceblue;
   margin: 0.1rem;
   padding: 0.1rem;
+}
+header #menu.active {
+  opacity: 1;
+  transition-delay: 0.5s;
 }
 
 footer {
@@ -961,20 +968,44 @@ footer .footer-element p {
   font-weight: bold;
   font-size: 1.1rem;
   margin-bottom: 0;
+  background-color: pink;
 }
-.ficha .desktop-dos-columnas .columna .descripcion h7 {
-  font-size: 1.3rem;
-  text-decoration: underline wavy #f58fd3 3px;
-}
-.ficha .desktop-dos-columnas .columna .descripcion p {
-  margin: 1rem 0;
-  text-align: justify;
-}
-.ficha .desktop-dos-columnas .columna .descripcion .video-descripcion {
+.ficha .desktop-dos-columnas .columna .descripcion .tabs {
+  list-style: none;
   margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  color: black;
+  background: #ae1e83;
+  text-align: center;
 }
-.ficha .desktop-dos-columnas .columna .descripcion .video-descripcion iframe {
-  width: 18rem;
+.ficha .desktop-dos-columnas .columna .descripcion .tabs-item {
+  padding: 3px 5px;
+  border-left: 4px solid #ae1e83;
+  cursor: pointer;
+}
+.ficha .desktop-dos-columnas .columna .descripcion .tabs-item:first-child {
+  border-left: none;
+}
+.ficha .desktop-dos-columnas .columna .descripcion .tabs-item.active {
+  background: pink;
+  border-left: 4px solid #ae1e83;
+}
+.ficha .desktop-dos-columnas .columna .descripcion .content {
+  color: black;
+  padding: 20px;
+}
+.ficha .desktop-dos-columnas .columna .descripcion .content-item {
+  position: absolute;
+  left: -5000px;
+}
+.ficha .desktop-dos-columnas .columna .descripcion .content-item.active {
+  position: relative;
+  left: 0;
+}
+.ficha .desktop-dos-columnas .columna .descripcion iframe {
+  width: 15rem;
   height: 10rem;
 }
 .ficha .desktop-dos-columnas .columna .cantidad {

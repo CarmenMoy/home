@@ -173,18 +173,24 @@
                         </div>
 
                         <div class="descripcion">
-                            <div class="cabecera-descripcion">
-                                <div class="titulo-descripcion">
-                                    <h7>DESCRIPCIÓN:</h7>
-                                </div>
-    
-                                <div class="texto-descripcion">
-                                    <p>Orco fué rescatado de un pozo en el que había sido lanzado junto a sus dos hermanos, que afortunadamente ya han sido adoptados. Por lo que Orco, ahora espera su oportunidad y te damos 10 razones por la que debes adoptarlo, en el video siguiente.</p>
-                                </div>
-                            </div>                            
+                            <ul class="tabs" id="tabs">
+                                <li class="tabs-item active" data-tab="descripcion">Descripción</li>
+                                <li class="tabs-item" data-tab="video">Vídeo</li>
+                                <li class="tabs-item" data-tab="acogida">Casa acogida</li>
+                            </ul> 
 
-                            <div class="video-descripcion">
-                                <iframe width="350" height="200" src="https://www.youtube.com/embed/cNE1ZHIylkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="content">
+                                <div class="content-item active" data-content="descripcion">
+                                    <p>Orco fué rescatado de un pozo en el que había sido lanzado junto a sus dos hermanos, que afortunadamente ya han sido adoptados. Por lo que Orco, ahora espera su oportunidad. Si quiere averiguar las 10 razones por la que debes adoptarlo, pincha en la siguiente pestaña del video adjunto.</p>
+                                </div>
+
+                                <div class="content-item" data-content="video">
+                                    <iframe width="350" height="200" src="https://www.youtube.com/embed/cNE1ZHIylkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+
+                                <div class="content-item" data-content="acogida">
+                                    <p>La acogida también puede ser una opción, ya que cumple una función esencial ya que nuestros peludos necesitan cariño y compañía y un hogar cálido hasta encontrar a su familia definitiva.</p>
+                                </div>
                             </div>
                         </div>
 
@@ -200,9 +206,9 @@
 
                                 <div class="botones-cantidad">
                                     <div class="btn-group mas-menos  " role="group">
-                                        <button type="button" class="btn btn-secondary quantity-modify quantity-sub"><i class="pccom-icon">-</i></button>
-                                        <input id="article-quantity" class="form-control input-units" type="text" value="1" data-max="20" data-id="328475" autocomplete="off" data-refubrished="false" data-digital="false" onKeyDown="return false">
-                                        <button type="button" class="btn btn-secondary quantity-modify quantity-add"><i class="pccom-icon ">+</i></button>
+                                        <button type="button" id="menos" data-boton="menos">-</button>
+                                        <input id="cantidad" type="number" value="1" data-max="20" autocomplete="off" onKeyDown="return false">
+                                        <button type="button" id="mas" data-boton="mas">+</button>
                                     </div>
                                 </div>
                             </div>
