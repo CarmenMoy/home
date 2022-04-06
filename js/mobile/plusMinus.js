@@ -16,17 +16,21 @@ export let plusMinus = () => {
     let botonMenos = document.getElementById("menos");
 
 
-    botonMas.addEventListener("click", () => {
-        if(botonMas.dataset.boton == "mas" && cantidad.value < 20) {
-            cantidad.value = (parseInt(cantidad.value) +1);
-        }
-    });
+    if(botonMas){
+        botonMas.addEventListener("click", () => {
+            if(botonMas.dataset.boton == "mas" && cantidad.value < 20) {
+                cantidad.value = (parseInt(cantidad.value) +1);
+            }
+        });
+    }
 
-    botonMenos.addEventListener("click", () => {
-        if(botonMenos.dataset.boton == "menos" && cantidad.value >0) {
-            cantidad.value = (parseInt(cantidad.value) -1);
-        }
-    });
+    if(botonMenos){
+        botonMenos.addEventListener("click", () => {
+            if(botonMenos.dataset.boton == "menos" && cantidad.value >0) {
+                cantidad.value = (parseInt(cantidad.value) -1);
+            }
+        });
+    }
 }
 
 
