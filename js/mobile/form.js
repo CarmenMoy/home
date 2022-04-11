@@ -1,3 +1,4 @@
+import {renderAlertas} from './alertas.js';
 import {validator} from './validator.js';
 
 export let renderForm = () => {
@@ -20,10 +21,12 @@ export let renderForm = () => {
                     for (let entradas of formData.entries()) {
                         console.log(entradas[0]+ ': ' + entradas[1]); 
                     } 
+
+                    renderAlertas('exito', 'Tu formulario se ha enviado correctamente. Muchas gracias por tu participación.');
                 });
 
                 validate.onFail( () => {
-                    alert("Revise los campos. Formulario incorrecto")
+                    renderAlertas('error', 'Por favor, revise el formulario');
                 });
             });
         });

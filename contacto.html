@@ -203,7 +203,7 @@
                                         </div>
                 
                                         <div class="contact-form-input">
-                                            <input type="text" name="lastname" class="is-invalid">
+                                            <input type="text" name="lastname" id="lastname" class="is-invalid">
                                         </div>
                                     </div>
                                 </div>
@@ -249,12 +249,7 @@
                                 </div>
                             </div>
 
-                            <div class="mt-4" id="example11_errors-container">
-                                <div class="just-validate-error-label" style="font-size: 14px; color: rgb(220, 53, 69);">Nombre, campo requerido</div>
-                                <div class="just-validate-error-label" style="font-size: 14px; color: rgb(220, 53, 69);">Apellidos, campo requerido</div>
-                                <div class="just-validate-error-label" style="font-size: 14px; color: rgb(220, 53, 69);">Teléfono, campo requirido</div>
-                                <div class="just-validate-error-label" style="font-size: 14px; color: rgb(220, 53, 69);">Correo, campo requerido</div>
-                            </div>
+                            <div id="errors-container"></div>
     
                             <div class="desktop-una-columna">
                                 <div class="columna">
@@ -263,6 +258,8 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div id="alerta"></div>
                         </form>
                     </div>
                 </div>

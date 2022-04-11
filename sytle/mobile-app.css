@@ -849,10 +849,9 @@ footer .footer-element p {
   font-weight: bold;
   font-size: 1rem;
 }
-.contacto .desktop-dos-columnas .columna .form-contact #alerta {
+.contacto .desktop-dos-columnas .columna .form-contact .alertajs {
   background-color: #6bc9f5;
   position: fixed;
-  right: 10%;
   width: 20%;
   font-size: 1rem;
   font-weight: 100;
@@ -860,14 +859,8 @@ footer .footer-element p {
   padding: 0 2%;
   opacity: 0;
 }
-.contacto .desktop-dos-columnas .columna .form-contact #alerta.active {
+.contacto .desktop-dos-columnas .columna .form-contact .alertajs.active {
   opacity: 1;
-}
-.contacto .desktop-dos-columnas .columna .form-contact #alerta.exito {
-  background-color: green;
-}
-.contacto .desktop-dos-columnas .columna .form-contact #alerta.error {
-  background-color: maroon;
 }
 
 .home .subtitulo {

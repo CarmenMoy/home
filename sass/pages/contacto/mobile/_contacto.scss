@@ -74,6 +74,30 @@
                     font-weight: bold;
                     font-size: 1rem;
                 }
+
+                #alerta{
+                    background-color: $tercer-color;
+                    position: fixed;
+                    right: 10%;
+                    width: 20%;
+                    font-size: 1rem;
+                    font-weight: 100;
+                    bottom: 11vh;
+                    padding: 0 2%;
+                    opacity: 0;
+            
+                    &.active{
+                        opacity: 1;
+                    }
+
+                    &.exito{
+                        background-color: hsl(120, 100%, 25%);
+                    }
+
+                    &.error{
+                        background-color: hsl(0, 100%, 25%);
+                    }
+                }
             }
         }
     }

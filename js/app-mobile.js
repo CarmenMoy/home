@@ -14,4 +14,3 @@ plusMinus();
 renderTabs();
 renderForm();
 renderCkeditor();
-validator();

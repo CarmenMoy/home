@@ -10,7 +10,7 @@ export let validator = (form) => {
         },
         focusInvalidField: true,
         lockForm: true,
-        errosContainer: '#example11_errors-container',
+        errosContainer: '#errors-container',
     });
 
     validation
@@ -32,16 +32,6 @@ export let validator = (form) => {
         {
         rule: 'maxLength',
         value: 30,
-        },
-    ])
-    .addField('#telephone', [
-        {
-        rule: 'minNumber',
-        value: 8,
-        },
-        {
-        rule: 'maxNumber',
-        value: 10,
         },
     ])
     .addField('#email', [
