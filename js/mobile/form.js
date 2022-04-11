@@ -1,3 +1,5 @@
+import {validator} from './validator.js';
+
 export let renderForm = () => {
 
     let sendButton = document.getElementById('send-button');
@@ -5,17 +7,24 @@ export let renderForm = () => {
 
     if(sendButton){
 
-        sendButton.addEventListener("click", (event) => {
-
-            event.preventDefault();
+        sendButton.addEventListener("click", () => {
 
             forms.forEach( form => {
 
-                let formData = new FormData(form);
+                let validate = validator(form);
 
-                for (let entradas of formData.entries()) {
-                    console.log(entradas[0]+ ': ' + entradas[1]); 
-                }
+                validate.onSuccess( () => {
+
+                    let formData = new FormData(form);
+
+                    for (let entradas of formData.entries()) {
+                        console.log(entradas[0]+ ': ' + entradas[1]); 
+                    } 
+                });
+
+                validate.onFail( () => {
+                    alert("Revise los campos. Formulario incorrecto")
+                });
             });
         });
     }

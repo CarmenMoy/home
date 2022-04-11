@@ -7,7 +7,6 @@ import {renderTabs} from './mobile/tabs.js';
 import {renderForm} from './mobile/form.js';
 import {renderCkeditor} from './mobile/ckeditor.js';
 
-
 // A su vez de darle importar (import), debemos detallar variable y "()", para que lo importe todo.
 // Todo su contenido.
 renderMenu();
@@ -15,3 +14,4 @@ plusMinus();
 renderTabs();
 renderForm();
 renderCkeditor();
+validator();
